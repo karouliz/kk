@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Midnights</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Midnights</h1>
+    </header>
+
+    <div class="album">
+        <div class="album-imagem">
+            <img src="fotos/Moonstone Blue.png" onclick="selecionarALBUM(this)">
+            <img src="fotos/blood moon.jpg" onclick="selecionarALBUM(this)">
+            <img src="fotos/jade green.jpg" onclick="selecionarALBUM(this)">
+            <img src="fotos/mahogany.jpg" onclick="selecionarALBUM(this)">
+        </div>
+        <div class="album-principal">
+            <img id="imgPrincipal" src="fotos/Moonstone Blue.png">
+        </div>
+    </div>
+
+    <div class="album-detalhes">
+        <h1>Midnights (2022)</h1>
+        <h2 id="album-nome">Midnights Vinil</h2>
+        <h3 id="preco-album">R$229,90</h3>
+        <p>Edições:</p>
+        <button class="botao" id="botaoMoonstoneBlue" onclick="mudarAlbum(this)">Moonstone Blue</button>
+        <button class="botao" id="botaoBloodMoon" onclick="mudarAlbum(this)">Blood Moon</button>
+        <button class="botao" id="botaoJadeGreen" onclick="mudarAlbum(this)">Jade Green</button>
+        <button class="botao" id="botaoMahogany" onclick="mudarAlbum(this)">Mahogany</button>
+        <br>
+        <button id="botaoComprar" href src="https://www.umusicstore.com/busca/" >Comprar Agora</button>
+    </div>
+</body>
+</html>
